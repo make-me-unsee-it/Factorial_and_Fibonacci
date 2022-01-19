@@ -20,15 +20,15 @@ public class FibonacciTest {
 
     @Test
     public void testLoopWhile() {
-        String expected = fibonacci.loopWhile(10);
-        String actual = "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]";
+        String expected = fibonacci.loopWhile(6);
+        String actual = "[0, 1, 1, 2, 3, 5]";
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void testLoopDoWhile() {
-        String expected = fibonacci.loopDoWhile(10);
-        String actual = "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]";
+        String expected = fibonacci.loopDoWhile(8);
+        String actual = "[0, 1, 1, 2, 3, 5, 8, 13]";
         Assert.assertEquals(expected, actual);
     }
 

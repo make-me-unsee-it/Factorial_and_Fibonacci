@@ -27,15 +27,15 @@ public class FactorialTest {
 
     @Test
     public void testLoopDoWhile() {
-        String expected = factorial.loopDoWhile(10);
-        String actual = "3628800";
+        String expected = factorial.loopDoWhile(12);
+        String actual = "479001600";
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void loopFor() {
-        String expected = factorial.loopFor(10);
-        String actual = "3628800";
+        String expected = factorial.loopFor(14);
+        String actual = "87178291200";
         Assert.assertEquals(expected, actual);
     }
 }
