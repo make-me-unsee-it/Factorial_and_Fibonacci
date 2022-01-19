@@ -20,17 +20,17 @@ public class ProgramTest {
 
     @Test
     public void testRunFibonacciWhile() throws ArgumentsInputException {
-        myProgram.run(1, 1, 10);
+        myProgram.run(1, 1, 6);
         String expected = myProgram.getResult();
-        String actual = "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]";
+        String actual = "[0, 1, 1, 2, 3, 5]";
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void testRunFibonacciDoWhile() throws ArgumentsInputException {
-        myProgram.run(1, 2, 10);
+        myProgram.run(1, 2, 8);
         String expected = myProgram.getResult();
-        String actual = "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]";
+        String actual = "[0, 1, 1, 2, 3, 5, 8, 13]";
         Assert.assertEquals(expected, actual);
     }
 
@@ -57,17 +57,17 @@ public class ProgramTest {
 
     @Test
     public void testRunFactorialDoWhile() throws ArgumentsInputException {
-        myProgram.run(2, 2, 10);
+        myProgram.run(2, 2, 12);
         String expected = myProgram.getResult();
-        String actual = "3628800";
+        String actual = "479001600";
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void testRunFactorialFor() throws ArgumentsInputException {
-        myProgram.run(2, 3, 10);
+        myProgram.run(2, 3, 14);
         String expected = myProgram.getResult();
-        String actual = "3628800";
+        String actual = "87178291200";
         Assert.assertEquals(expected, actual);
     }
 
