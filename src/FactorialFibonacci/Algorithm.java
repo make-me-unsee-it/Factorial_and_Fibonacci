@@ -1,5 +1,7 @@
 package FactorialFibonacci;
 
+import FactorialFibonacci.exception.ArgumentsInputException;
+
 public interface Algorithm {
     String loopWhile(int nParameter);
 

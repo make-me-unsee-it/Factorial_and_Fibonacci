@@ -1,5 +1,7 @@
-package FactorialFibonacci;
+package FactorialFibonacci.test;
 
+import FactorialFibonacci.Program;
+import FactorialFibonacci.exception.ArgumentsInputException;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
