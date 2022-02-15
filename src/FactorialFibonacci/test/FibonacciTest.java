@@ -1,5 +1,6 @@
-package FactorialFibonacci;
+package FactorialFibonacci.test;
 
+import FactorialFibonacci.Fibonacci;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

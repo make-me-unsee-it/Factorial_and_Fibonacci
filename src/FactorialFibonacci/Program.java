@@ -1,5 +1,7 @@
 package FactorialFibonacci;
 
+import FactorialFibonacci.exception.ArgumentsInputException;
+
 import java.util.Objects;
 
 public class Program {
